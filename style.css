@@ -11,6 +11,12 @@ Version: 1
     background-image: url('images/headerbg.jpg');
     background-size: cover;
 }
+.smallpage-bg {
+    width: 100%;
+    background: url('images/page_header_bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+}
 .navbar {
     font-size: 0.8em;
 }
@@ -43,6 +49,11 @@ Version: 1
     font-weight: 800;
     line-height: 75%;
     font-family: 'Raleway', sans-serif;
+}
+.smallpage-title {
+    font-size: 4em;
+    color: #ffffff;
+    font-weight: 800;
 }
 .aboutbg {
     background-color: #E8E7EA;
