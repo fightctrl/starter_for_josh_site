@@ -1,10 +1,10 @@
 <?php
 /*
-Template Name: CV
+Template Name: Page
 */
 ?>
 
-<?php get_header();?>
+<?php require_once('page_header.php'); ?>
     <div class="container-fluid maincontainer">
         <div class="container">
             <div class="row">
