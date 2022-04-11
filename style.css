@@ -17,6 +17,12 @@ Version: 1
     background-size: cover;
     height: 40vh;
 }
+.small-herobg {
+    width: 100%;
+    background: url('images/small_header_bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+}
 .navbar {
     font-size: 0.8em;
 }
@@ -116,6 +122,12 @@ Version: 1
     font-size: 0.9em;
     margin-bottom: 30px;
     display: block;
+}
+img.attachment-thumbnail.size-thumbnail.wp-post-image {
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
 }
 footer {
     background-image: url('images/footer.jpg');
