@@ -1,11 +1,13 @@
     <footer class="container-fluid text-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <p>JOSH WHITKIN</p>
+                <div class="col-md-6 widgetleft">
+                    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_left') ) :
+                    endif; ?>
                 </div> <!-- col-md-6 -->
                 <div class="col-md-6">
-                    <p>Terms and Conditions</p>
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_right') ) :
+                endif; ?>
                 </div> <!-- col-md-6 -->
             </div> <!-- row -->
         </div> <!-- container -->
