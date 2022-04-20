@@ -2,11 +2,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 widgetleft">
-                    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_left') ) :
+                    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-left') ) :
                     endif; ?>
                 </div> <!-- col-md-6 -->
                 <div class="col-md-6">
-                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_right') ) :
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-right') ) :
                 endif; ?>
                 </div> <!-- col-md-6 -->
             </div> <!-- row -->
